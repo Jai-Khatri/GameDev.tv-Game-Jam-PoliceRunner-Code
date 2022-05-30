@@ -29,6 +29,6 @@ public class Camfollow : MonoBehaviour
 
     void Rotate()
     {
-        transform.rotation = Player.transform.rotation;
+        transform.rotation = Player.transform.rotation; //Sets the Camera's rotation to the player's rotation as we want the camera to see what camera sees.
     }
 }
